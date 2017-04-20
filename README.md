@@ -1,2 +1,3 @@
 # NodeJS-module-demo
-demos of NodeJS modules
+
+*NodeJS* 主要模块的一些总结及其 *demo*，基于 *node v7.9.0* 

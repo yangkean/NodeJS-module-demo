@@ -24,8 +24,8 @@
 
 ### assert.throws(block[, error][, message]) && assert.doesNotThrow(block[, error][, message])
 
-* `block` <Function>
-* `error` <RegExp> | <Function>
+* `block` \<Function\>
+* `error` \<RegExp\> | \<Function\>
 
 `assert.throws`检测`block`函数是否抛出错误，如果第二个参数指定则检测是否抛出符合预期的错误，不抛出错误则报错。第二个参数可以是构造函数、正则表达式、自定义验证函数。`assert.doesNotThrow`则检测`block`函数是否不会抛出错误，若抛出错误且符合第二个参数期望则报错，抛出错误但不符合期望则错误传递到调用者。
 
