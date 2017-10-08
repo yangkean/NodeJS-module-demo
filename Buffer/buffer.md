@@ -1,4 +1,4 @@
-# Buffer
+# Buffer（缓冲）
 
 `Buffer`是用来处理二进制数据的一个类，在 *Node* 运行环境中是全局变量，无需使用`require`引入。
 
