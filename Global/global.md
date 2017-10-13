@@ -16,7 +16,7 @@ string。当前模块的文件名称（绝对路径）。
 
 #### exports
 
-这是一个对于 module.exports 的更简短的“引用”形式。exports 会在模块被执行前被赋予 module.exports 的值，模块导出的内容本质是 module.exports。
+这是一个对于 module.exports 的更简短的“引用”形式。exports 会在模块被执行前被赋予 module.exports 的值，模块最终导出的是 module.exports。
 
 因为这个变量存储的是一个引用，当单独给它赋一个新值时，它将不再指向 module.exports 的值。一般要对整个 exports 赋值的话，直接用 `module.exports = ...`，对 exports 对象的属性赋值时，简便起见用 `exports.f = ...`。
 
